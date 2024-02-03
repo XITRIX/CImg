@@ -166,7 +166,7 @@
 #endif
 
 // Include OS-specific headers.
-#if __SWITCH__
+#if __SWITCH__ || __vita__
 #include <sys/time.h>
 #elif cimg_OS==1
 #include <sys/types.h>
